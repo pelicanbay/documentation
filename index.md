@@ -7,7 +7,7 @@ authors:
       link: https://voxi.codes
       avatar: /static/logo.png
 ---
-![](/static/headers/welcome.png)
+![](/static/images/welcome.png)
 
 #
 
