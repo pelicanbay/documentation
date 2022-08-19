@@ -1,0 +1,30 @@
+name: Publish Retype docs to GitHub Pages
+
+# **What it does**: This builds all of the content from the main branch and deploys it to the retype branch
+# **Why we have it**: So that contributers don't have to build the documentation on their system
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    name: Publish to the retype branch
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
+
+      - uses: retypeapp/action-build@v2
+
+      - uses: retypeapp/action-github-pages@v2
+        with:
+          branch: retype
+          update-branch: true
