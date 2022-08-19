@@ -71,7 +71,7 @@ exclude: # A list of files or folders to exclude from the build process.
 
 # -----------------------------------------------------------------------------
 
-favicon: static/favicon.png # Path to a custom favicon, or.
+favicon: static/logo.png # Path to a custom favicon, or.
                             # just put a favicon.ico in your project root.
 
 # -----------------------------------------------------------------------------
