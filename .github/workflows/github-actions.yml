@@ -4,6 +4,7 @@ name: Publish Retype docs to GitHub Pages
 # **Why we have it**: So that contributers don't have to build the documentation on their system
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
