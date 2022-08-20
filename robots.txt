@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pelicanbay.github.io/sitemap.xml.gz
+Sitemap: https://docs.pelicanbaygaming.com/sitemap.xml.gz
