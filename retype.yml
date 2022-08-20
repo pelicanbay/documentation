@@ -8,7 +8,7 @@ output: .retype # Custom path to the output directory.
 
 # -----------------------------------------------------------------------------
 
-url: pelicanbay.github.io/               # The base URL of your website.
+url: docs.pelicanbaygaming.com/               # The base URL of your website.
 
 # -----------------------------------------------------------------------------
 
@@ -54,7 +54,7 @@ edit:
   repo: ""   # The URL where the source files for this project are located.
   base: ""   # Optional base path to a directory within the above repo.
   branch: "" # Point to a custom branch within the repo.
-  label: "Edit this page" # A custom label for the generated link.
+  label: "" # A custom label for the generated link.
 
 # -----------------------------------------------------------------------------
 
@@ -101,7 +101,7 @@ integrations:
                   # wavatar | retro        | robohash  | blank
     enabled: true # Whether Retype should use Gravatar to pull profile images.
   plausible:      # Plausible.io integration.
-    domain: pelicanbay.github.io # Your plausible Domain(s).
+    domain: docs.pelicanbaygaming.com # Your plausible Domain(s).
 
 # -----------------------------------------------------------------------------
 
